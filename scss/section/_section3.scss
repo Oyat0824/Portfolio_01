@@ -76,80 +76,80 @@
       }
 
       &.html {
-        background-image: url(../../images/icons/html.png);
+        background-image: url(../images/icons/html.png);
         @include icon_hover('HTML', rgba(225, 89, 36, 0.7));
       }
       &.css {
-        background-image: url(../../images/icons/css.png);
+        background-image: url(../images/icons/css.png);
         @include icon_hover('CSS', rgba(51, 173, 223, 0.7));
       }
       &.javascript {
-        background-image: url(../../images/icons/javascript.png);
+        background-image: url(../images/icons/javascript.png);
         background-size: cover;
         @include icon_hover('JavaScript', rgba(255, 251, 43, 0.7));
       }
       &.sass {
-        background-image: url(../../images/icons/sass.png);
+        background-image: url(../images/icons/sass.png);
         @include icon_hover('SASS', rgba(182, 87, 153, 0.7));
       }
       &.jquery {
-        background-image: url(../../images/icons/jquery.png);
+        background-image: url(../images/icons/jquery.png);
         background-size: 70%;
         @include icon_hover('Jquery', rgba(43, 71, 145, 0.7));
       }
       &.node {
-        background-image: url(../../images/icons/node.png);
+        background-image: url(../images/icons/node.png);
         @include icon_hover('Node', rgba(0, 102, 46, 0.7));
       }
       &.react {
-        background-image: url(../../images/icons/react.png);
+        background-image: url(../images/icons/react.png);
         background-size: 70%;
         @include icon_hover('React', rgba(35, 139, 139, 0.7));
       }
       &.php {
-        background-image: url(../../images/icons/php.png);
+        background-image: url(../images/icons/php.png);
         @include icon_hover('PHP', rgba(34, 68, 105, 0.7));
       }
       &.git {
-        background-image: url(../../images/icons/git.png);
+        background-image: url(../images/icons/git.png);
         @include icon_hover('Git', rgba(214, 116, 86, 0.7));
       }
       &.linux {
-        background-image: url(../../images/icons/linux.png);
+        background-image: url(../images/icons/linux.png);
         @include icon_hover('Linux', rgba(59, 59, 59, 0.7));
       }
       &.photoshop {
-        background-image: url(../../images/icons/photoshop.png);
+        background-image: url(../images/icons/photoshop.png);
         background-size: 105%;
         @include icon_hover('PhotoShop', rgba(122, 134, 246, 0.7));
       }
       &.premiere {
-        background-image: url(../../images/icons/premiere.png);
+        background-image: url(../images/icons/premiere.png);
         background-size: 105%;
         @include icon_hover('Premiere', rgba(225, 122, 246, 0.7));
       }
       &.xe {
-        background-image: url(../../images/icons/xe.png);
+        background-image: url(../images/icons/xe.png);
         background-size: cover;
         @include icon_hover('XE', rgba(58, 58, 203, 0.7));
       }
       &.rhymix {
-        background-image: url(../../images/icons/rhymix.png);
+        background-image: url(../images/icons/rhymix.png);
         background-size: cover;
         @include icon_hover('Rhymix', rgba(212, 60, 60, 0.7));
       }
       &.c {
-        background-image: url(../../images/icons/c.png);
+        background-image: url(../images/icons/c.png);
         background-size: 90%;
         @include icon_hover('C', rgba(3, 89, 156, 0.7));
       }
       &.cpp {
-        background-image: url(../../images/icons/cpp.png);
+        background-image: url(../images/icons/cpp.png);
         background-size: 86%;
         @include icon_hover('C++', rgba(0, 68, 130, 0.7));
       }
       &.python {
-        background-image: url(../../images/icons/python.png);
+        background-image: url(../images/icons/python.png);
         background-size: cover;
         @include icon_hover('Python', rgba(245, 196, 60, 0.7));
       }

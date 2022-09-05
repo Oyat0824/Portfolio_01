@@ -483,7 +483,7 @@ a {
   }
 }
 #skills_content #icons .icon.html {
-  background-image: url(../../images/icons/html.png);
+  background-image: url(../images/icons/html.png);
 }
 #skills_content #icons .icon.html::before {
   content: "HTML";
@@ -505,7 +505,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.css {
-  background-image: url(../../images/icons/css.png);
+  background-image: url(../images/icons/css.png);
 }
 #skills_content #icons .icon.css::before {
   content: "CSS";
@@ -527,7 +527,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.javascript {
-  background-image: url(../../images/icons/javascript.png);
+  background-image: url(../images/icons/javascript.png);
   background-size: cover;
 }
 #skills_content #icons .icon.javascript::before {
@@ -550,7 +550,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.sass {
-  background-image: url(../../images/icons/sass.png);
+  background-image: url(../images/icons/sass.png);
 }
 #skills_content #icons .icon.sass::before {
   content: "SASS";
@@ -572,7 +572,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.jquery {
-  background-image: url(../../images/icons/jquery.png);
+  background-image: url(../images/icons/jquery.png);
   background-size: 70%;
 }
 #skills_content #icons .icon.jquery::before {
@@ -595,7 +595,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.node {
-  background-image: url(../../images/icons/node.png);
+  background-image: url(../images/icons/node.png);
 }
 #skills_content #icons .icon.node::before {
   content: "Node";
@@ -617,7 +617,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.react {
-  background-image: url(../../images/icons/react.png);
+  background-image: url(../images/icons/react.png);
   background-size: 70%;
 }
 #skills_content #icons .icon.react::before {
@@ -640,7 +640,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.php {
-  background-image: url(../../images/icons/php.png);
+  background-image: url(../images/icons/php.png);
 }
 #skills_content #icons .icon.php::before {
   content: "PHP";
@@ -662,7 +662,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.git {
-  background-image: url(../../images/icons/git.png);
+  background-image: url(../images/icons/git.png);
 }
 #skills_content #icons .icon.git::before {
   content: "Git";
@@ -684,7 +684,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.linux {
-  background-image: url(../../images/icons/linux.png);
+  background-image: url(../images/icons/linux.png);
 }
 #skills_content #icons .icon.linux::before {
   content: "Linux";
@@ -706,7 +706,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.photoshop {
-  background-image: url(../../images/icons/photoshop.png);
+  background-image: url(../images/icons/photoshop.png);
   background-size: 105%;
 }
 #skills_content #icons .icon.photoshop::before {
@@ -729,7 +729,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.premiere {
-  background-image: url(../../images/icons/premiere.png);
+  background-image: url(../images/icons/premiere.png);
   background-size: 105%;
 }
 #skills_content #icons .icon.premiere::before {
@@ -752,7 +752,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.xe {
-  background-image: url(../../images/icons/xe.png);
+  background-image: url(../images/icons/xe.png);
   background-size: cover;
 }
 #skills_content #icons .icon.xe::before {
@@ -775,7 +775,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.rhymix {
-  background-image: url(../../images/icons/rhymix.png);
+  background-image: url(../images/icons/rhymix.png);
   background-size: cover;
 }
 #skills_content #icons .icon.rhymix::before {
@@ -798,7 +798,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.c {
-  background-image: url(../../images/icons/c.png);
+  background-image: url(../images/icons/c.png);
   background-size: 90%;
 }
 #skills_content #icons .icon.c::before {
@@ -821,7 +821,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.cpp {
-  background-image: url(../../images/icons/cpp.png);
+  background-image: url(../images/icons/cpp.png);
   background-size: 86%;
 }
 #skills_content #icons .icon.cpp::before {
@@ -844,7 +844,7 @@ a {
   visibility: visible;
 }
 #skills_content #icons .icon.python {
-  background-image: url(../../images/icons/python.png);
+  background-image: url(../images/icons/python.png);
   background-size: cover;
 }
 #skills_content #icons .icon.python::before {
