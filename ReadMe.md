@@ -1,6 +1,6 @@
 # 사용한 기술
 - HTML
-- CSS
+- SCSS/CSS
 - JavaScript
 - Jquery
 
