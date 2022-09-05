@@ -1,0 +1,23 @@
+/* 노멀라이징 */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* 라이브러리 */
+.content {
+  width: 80%;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+	background-color: $light-color;
+}
+
+#fp-nav ul li:last-child {
+	display: none;
+}

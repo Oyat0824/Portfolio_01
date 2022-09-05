@@ -1,0 +1,94 @@
+// Section 5
+#section5 {
+  position: relative;
+}
+
+// Contact Content
+#contact_content {
+  margin: 0 auto;
+  text-align: center;
+  color: $light-color;
+
+  #contact_txt {
+    @include neon_set(5vw);
+    
+    @media all and (max-width: 1000px) {
+      font-size: 10vw;
+      line-height: 10vw;
+    }
+  }
+
+  .line {
+    @include line_set(#FEFEFE);
+  }
+  @include line_start(12vw);
+
+  #contact_list {
+    display: flex;
+    justify-content: center;
+
+    @media all and (max-width: 1000px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .item {
+      width: 300px;
+      font-family: 'Do Hyeon', sans-serif;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(80px);
+      transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+      & + .item {
+        margin-left: 50px;
+
+        @media all and (max-width: 1000px) {
+          margin-left: 0;
+          margin-top: 50px;
+        }
+      }
+
+      .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px;
+        font-size: 24px;
+        color: #111;
+        background-color: #fff93d;
+        box-sizing: border-box;
+      }
+      
+      .bottom {
+        height: 60px;
+        line-height: 60px;
+        font-size: 20px;
+        color: #111;
+        background-color: #fff;
+      }
+    }
+  }
+
+  &.active {
+    #contact_txt {
+      @include neon_start(neon5, 1s, .3s);
+    }
+
+    #contact_list .item {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+
+      &:nth-child(1) {
+        transition-delay: 1.5s;
+      }
+      &:nth-child(2) {
+        transition-delay: 1.6s;
+      }
+    }
+  }
+
+}

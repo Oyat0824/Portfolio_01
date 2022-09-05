@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/favicon.ico">
+  <title>포트폴리오</title>
+  <!-- Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+  <!-- My CSS & Script -->
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/script.js"></script>
+</head>
+<body>
+  <div id="fullpage">
+    <!-- 섹션 1 :: 메인 -->
+    <div id="section1" class="section" data-anchor="main">
+      <div id="particles-js"></div>
+      <div id="main_content" class="content">
+        <div id="portfolio_txt">PORTFOLIO</div>
+        <div id="by_me_txt">BY KIMILJIN</div>
+      </div>
+      <div id="scroll_down">
+        <div id="mouse"></div>
+        <div id="scroll_txt">Scroll Down</div>
+      </div>
+    </div>
+    <!-- 섹션 2 :: 프로필 -->
+    <div id="section2" class="section" data-anchor="profile">
+      <div id="profile_content" class="content">
+        <div id="profile_txt">PROFILE</div>
+        <div class="line"></div>
+        <div id="profile_box">
+          <div id="profile_line">
+            <div id="profile_pic">
+              <div class="pic"></div>
+            </div>
+            <div id="profile_con">
+              <div class="desc">
+                <h3>이름</h3>
+                <p>김일진</p>
+              </div>
+              <div class="desc">
+                <h3>자격증</h3>
+                <p>ITQ 아래한글 A등급ㅣ2013.05</p>
+                <p>ITQ 한글파워포인트 A등급ㅣ2013.05</p>
+                <p>전자기기 기능사ㅣ2013.07</p>
+                <p>웹디자인 기능사ㅣ2018.12</p>
+              </div>
+              <div class="desc">
+                <h3>학력</h3>
+                <p>계룡 공업 고등학교 졸업ㅣ2011.03 - 2014.02</p>
+              </div>
+              <div class="desc">
+                <h3>경력</h3>
+                <p>XE & Rhymix CMS를 이용해 커뮤니티 사이트 운영ㅣ2016 - 2020</p>
+              </div>
+              <div class="desc">
+                <h3>교육과정</h3>
+                <p>코리아 IT 아카데미 프론트엔드 수료ㅣ2022.03 - 2022.08</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 섹션 3 :: 스킬 -->
+    <div id="section3" class="section" data-anchor="skills">
+      <div id="skills_content" class="content">
+        <div id="skills_txt">SKILLS</div>
+        <div class="line"></div>
+        <div id="icons">
+          <div class="icon html"><div class="per"></div></div>
+          <div class="icon css"><div class="per"></div></div>
+          <div class="icon javascript"><div class="per"></div></div>
+          <div class="icon sass"><div class="per"></div></div>
+          <div class="icon jquery"><div class="per"></div></div>
+          <div class="icon node"><div class="per"></div></div>
+          <div class="icon react"><div class="per"></div></div>
+          <div class="icon php"><div class="per"></div></div>
+          <div class="icon git"><div class="per"></div></div>
+          <div class="icon linux"><div class="per"></div></div>
+          <div class="icon photoshop"><div class="per"></div></div>
+          <div class="icon premiere"><div class="per"></div></div>
+          <div class="icon xe"><div class="per"></div></div>
+          <div class="icon rhymix"><div class="per"></div></div>
+          <div class="icon c"><div class="per"></div></div>
+          <div class="icon cpp"><div class="per"></div></div>
+          <div class="icon python"><div class="per"></div></div>
+        </div>
+      </div>
+    </div>
+    <!-- 섹션 4 :: 포트폴리오 -->
+    <div id="section4" class="section" data-anchor="portfolio">
+      <div id="portfolio_content" class="content">
+        <div id="portfolio_txt">PORTFOLIO</div>
+        <div class="line"></div>
+        <div id="slider-wrap">
+          <div id="slider">
+            <div class="box">
+              <div class="img-box" style="background-image: url(./images/portfolio/egg_talk.png);"></div>
+              <div class="txt-box">에그톡</div>
+              <div class="link-box">
+                <div class="git" onClick="window.open('https://github.com/Oyat0824/Egg_Talk')"><i class="fa-brands fa-github"></i></div>
+                <div class="link" onClick="window.open('https://eggtalk-ij-0705.netlify.app/')"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box" style="background-image: url(./images/portfolio/node_talk.png);"></div>
+              <div class="txt-box">노드 웹소켓 채팅 앱</div>
+              <div class="link-box">
+                <div class="git" onClick="window.open('https://github.com/Oyat0824/NodeJS')"><i class="fa-brands fa-github"></i></div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box" style="background-image: url(./images/portfolio/gamebti.png);"></div>
+              <div class="txt-box">MBTI 테스트 앱</div>
+              <div class="link-box">
+                <div class="git" onClick="window.open('https://github.com/Oyat0824/React_MBTI-App')"><i class="fa-brands fa-github"></i></div>
+                <div class="link" onClick="window.open('https://gamebti-ij.netlify.app')"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box" style="background-image: url(./images/portfolio/card.png);"></div>
+              <div class="txt-box">카드 앱</div>
+              <div class="link-box">
+                <div class="git" onClick="window.open('https://github.com/Oyat0824/React_CardApp')"><i class="fa-brands fa-github"></i></div>
+                <div class="link" onClick="window.open('https://lol-card-ij.netlify.app')"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box" style="background-image: url(./images/portfolio/rainy_clock.png);"></div>
+              <div class="txt-box">빗소리 + 시계</div>
+              <div class="link-box">
+                <div class="git" onClick="window.open('https://github.com/Oyat0824/Mini_Project/tree/main/Rainy_Clock')"><i class="fa-brands fa-github"></i></div>
+                <div class="link" onClick="window.open('https://rainy-clock.netlify.app/')"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box" style="background-image: url(./images/portfolio/lotto.png); background-size: contain;"></div>
+              <div class="txt-box">로또 추첨</div>
+              <div class="link-box">
+                <div class="git" onClick="window.open('https://github.com/Oyat0824/Mini_Project/tree/main/Lotto')"><i class="fa-brands fa-github"></i></div>
+                <div class="link" onClick="window.open('https://lotto-ij.netlify.app/')"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box" style="background-image: url(./images/portfolio/todo.png); background-size: contain;"></div>
+              <div class="txt-box">할 일 목록</div>
+              <div class="link-box">
+                <div class="git" onClick="window.open('https://github.com/Oyat0824/Mini_Project/tree/main/Kakao_Todo')"><i class="fa-brands fa-github"></i></div>
+                <div class="link" onClick="window.open('https://todolist-ij-0722.netlify.app/')"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                <div class="link" onClick="window.open('https://kakao-todo-ij.netlify.app/')"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box" style="background-image: url(./images/portfolio/photo_slide.png);"></div>
+              <div class="txt-box">포토 슬라이드</div>
+              <div class="link-box">
+                <div class="git" onClick="window.open('https://github.com/Oyat0824/Mini_Project/tree/main/Photo_Slide')"><i class="fa-brands fa-github"></i></div>
+                <div class="link" onClick="window.open('https://photo-slide-ij.netlify.app/')"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box" style="background-image: url(./images/portfolio/copy_prospecs.png);"></div>
+              <div class="txt-box">프로스펙스 모작 사이트</div>
+              <div class="link-box">
+                <div class="git" onClick="window.open('https://github.com/Oyat0824/Prospecs_copy')"><i class="fa-brands fa-github"></i></div>
+                <div class="link" onClick="window.open('https://oyat0824.github.io/Prospecs_copy/')"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box" style="background-image: url(./images/portfolio/copy_blackbricks.png);"></div>
+              <div class="txt-box">블랙브릭스 모작 사이트</div>
+              <div class="link-box">
+                <div class="git" onClick="window.open('https://github.com/Oyat0824/BlackBricks_copy')"><i class="fa-brands fa-github"></i></div>
+                <div class="link" onClick="window.open('https://oyat0824.github.io/BlackBricks_copy/')"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+              </div>
+            </div>
+          </div>
+          <div id="slide_etc">
+            <div id="slide_btn">
+              <div class="prev"><i class="fa-solid fa-caret-left"></i></div>
+              <div class="next"><i class="fa-solid fa-caret-right"></i></div>
+            </div>
+            <div id="state">
+              <div class="play"><i class="fa-solid fa-play"></i></div>
+              <div class="pause on"><i class="fa-solid fa-pause"></i></div>
+            </div>
+            <div id="page">
+              <div class="slide_num"></div>
+              <div class="gauge"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 섹션 5 :: 연락처 -->
+    <div id="section5" class="section" data-anchor="contact">
+      <div id="contact_content" class="content">
+        <div id="contact_txt">CONTACT</div>
+        <div class="line"></div>
+        <div id="contact_list">
+          <div class="item email">
+            <div class="top">E-MAIL<i class="fa-solid fa-envelope" style="font-size: 24px; cursor: pointer;" onclick="copyToEmail('이메일 주소가 복사되었습니다.')"></i></div>
+            <input type="hidden" id="data-mail" value="langue824@gmail.com">
+            <div class="bottom">langue824@gmail.com</div>
+          </div>
+          <div class="item phone">
+            <div class="top">PHONE<i class="fa-solid fa-mobile-screen" style="font-size: 24px; cursor: pointer;" onclick="copyToPhone('휴대폰 번호가 복사되었습니다.')"></i></div>
+            <input type="hidden" id="data-phone" value="01044380146">
+            <div class="bottom">010 - 4438 - 0146</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 섹션 6 :: 푸터 -->
+    <div id="section6" class="section fp-auto-height" data-anchor="footer">
+      <div id="footer_box">
+        Copyright © KIM IL JIN. All Right Reserved.
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

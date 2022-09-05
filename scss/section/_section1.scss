@@ -1,0 +1,100 @@
+// Section 1
+#section1 {
+  position: relative;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, #010011 0%, #001132 100%);
+}
+
+// Particles JS
+#particles-js {
+	position: absolute;
+  top: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.particles-js-canvas-el {
+  position: fixed;
+  display: block;
+}
+
+// Main Content
+#main_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  user-select: none;
+
+  #portfolio_txt {
+    @include neon_set(10vw)
+  }
+
+  #by_me_txt {
+    @include neon_set(6vw)
+  }
+
+  &.active {
+    #portfolio_txt {
+      @include neon_start(neon1, 2s, .3s);
+    }
+
+    #by_me_txt {
+      @include neon_start(neon2, 1s, 1.8s);
+    }
+  }
+}
+
+// Scroll Down
+#scroll_down {
+  position: absolute;
+  left: 50%;
+  bottom: 42px;
+  transform: translateX(-50%);
+  user-select: none;
+
+  #mouse {
+    position: relative;
+    width: 38px;
+    height: 60px;
+    margin: 0 auto 10px;
+    border: 2px solid $light-color;
+    border-radius: 50px;
+    box-sizing: border-box;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 5px;
+      height: 10px;
+      border-radius: 10px;
+      background-color: $light-color;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) rotate(45deg);
+      width: 5px;
+      height: 5px;
+      border: 2px solid $light-color;
+      border-top: transparent;
+      border-left: transparent;
+      animation: MoveArrow 1s ease-in-out infinite;
+    }
+  }
+
+  #scroll_txt {
+    color: $light-color;
+    animation: MoveText 1s ease-in-out infinite alternate;
+  }
+}

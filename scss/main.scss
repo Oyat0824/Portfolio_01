@@ -1,0 +1,20 @@
+/* Library */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css");
+
+/* My SCSS */
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/base';
+@import 'base/animations';
+@import 'base/fonts';
+
+@import "./section/section1.scss";
+@import "./section/section2.scss";
+@import "./section/section3.scss";
+@import "./section/section4.scss";
+@import "./section/section5.scss";
+@import "./section/section6.scss";

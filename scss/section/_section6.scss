@@ -1,0 +1,11 @@
+// Section 6
+#footer_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background: linear-gradient(0deg, #001132 0%, #010011 100%);
+  font-size: 18px;
+  font-weight: bold;
+  color: $light-color;
+}

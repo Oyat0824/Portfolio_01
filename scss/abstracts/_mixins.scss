@@ -1,0 +1,82 @@
+// 네온 글자 mixin
+@mixin neon_set($font-size) {
+  font-family: 'neon';
+  color: #000;
+  font-size: $font-size;
+  line-height: $font-size;
+  text-shadow: 0 0 3vw #000;
+}
+
+@mixin neon_start($ani_name, $play_time, $delay_time) {
+  animation: $ani_name $play_time ease $delay_time forwards;
+}
+
+@mixin line_set($color) {
+  position: relative;
+  margin: 50px auto;
+  width: 1px;
+  height: 3px;
+  
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    background-color: $color;
+    transition: .7s 1s;
+  }
+
+  &::before {
+    left: 50%;
+  }
+
+  &::after {
+    right: 50%;
+  }
+}
+
+@mixin line_start($length) {
+  &.active .line {
+
+    &::before,
+    &::after {
+      width: $length;
+    }
+  }
+}
+
+@mixin icon_hover($content, $bgc) {
+  &::before {
+    content: $content;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: help;
+    color: #fff;
+    background-color: $bgc;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+  }
+
+  &:hover::before {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@mixin icon_per {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -10;
+  transform: translate(-50%, -50%);
+  width: 110%;
+  height: 110%;
+  border-radius: 50%;
+  transition: 1s;
+}
