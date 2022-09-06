@@ -34,7 +34,7 @@
     opacity: 0;
     visibility: hidden;
     transform: scale(0);
-    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.1) 1.5s;
+    transition: .8s cubic-bezier(0.175, 0.885, 0.32, 1.1) 1.5s;
     
 
     @media all and (max-width: 1290px) {
@@ -141,7 +141,7 @@
 
   &.active {
     #profile_txt {
-      @include neon_start(neon3, 1s, .3s);
+      @include neon_start(neon3, .5s, .3s);
     }
 
     #profile_box {

@@ -38,7 +38,7 @@
       opacity: 0;
       visibility: hidden;
       transform: translateY(80px);
-      transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
       & + .item {
         margin-left: 50px;
@@ -74,7 +74,7 @@
 
   &.active {
     #contact_txt {
-      @include neon_start(neon5, 1s, .3s);
+      @include neon_start(neon5, .5s, .3s);
     }
 
     #contact_list .item {

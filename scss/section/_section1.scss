@@ -40,11 +40,11 @@
 
   &.active {
     #portfolio_txt {
-      @include neon_start(neon1, 2s, .3s);
+      @include neon_start(neon1, 1.5s, .3s);
     }
 
     #by_me_txt {
-      @include neon_start(neon2, 1s, 1.8s);
+      @include neon_start(neon2, .5s, 1.8s);
     }
   }
 }
