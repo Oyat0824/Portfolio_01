@@ -8,6 +8,7 @@
   margin: 0 auto;
   text-align: center;
   color: $light-color;
+  font-family: "IBMPlexSansKR-Regular";
 
   #profile_txt {
     @include neon_set(5vw);
@@ -104,11 +105,12 @@
           }
 
           h3 {
+            font-size: 24px;
             margin-bottom: 3px;
           }
 
           p {
-            font-size: 17px;
+            font-size: 20px;
 
             &::before {
               content: '-';
@@ -127,13 +129,13 @@
 
       @media all and (max-width: 810px) {
         #profile_con .desc p {
-          font-size: 14px;
+          font-size: 16px;
         }
       }
 
       @media all and (max-width: 790px) {
         #profile_con .desc p {
-          font-size: 12px;
+          font-size: 14px;
         }
       }
     }
