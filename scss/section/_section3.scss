@@ -118,16 +118,6 @@
         background-image: url(../images/icons/linux.png);
         @include icon_hover('Linux', rgba(59, 59, 59, 0.7));
       }
-      &.photoshop {
-        background-image: url(../images/icons/photoshop.png);
-        background-size: 105%;
-        @include icon_hover('PhotoShop', rgba(122, 134, 246, 0.7));
-      }
-      &.premiere {
-        background-image: url(../images/icons/premiere.png);
-        background-size: 105%;
-        @include icon_hover('Premiere', rgba(225, 122, 246, 0.7));
-      }
       &.xe {
         background-image: url(../images/icons/xe.png);
         background-size: cover;
@@ -152,6 +142,11 @@
         background-image: url(../images/icons/python.png);
         background-size: cover;
         @include icon_hover('Python', rgba(245, 196, 60, 0.7));
+      }
+      &.java {
+        background-image: url(../images/icons/java.png);
+        background-size: cover;
+        @include icon_hover('Java', rgba(234, 45, 46, 0.7));
       }
       & .per {
         @include icon_per;

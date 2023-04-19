@@ -319,14 +319,15 @@ a {
   background-color: #FEFEFE;
 }
 #profile_content #profile_box #profile_line #profile_pic .pic {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   background-color: #FEFEFE;
-  border: 4px dashed #FEFEFE;
+  border: 4px solid #FEFEFE;
   border-radius: 50%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 30%;
   background-size: cover;
+  background-image: url("../images/profile/pic.jpg");
 }
 @media all and (max-width: 1290px) {
   #profile_content #profile_box #profile_line #profile_pic {
@@ -701,50 +702,6 @@ a {
   opacity: 1;
   visibility: visible;
 }
-#skills_content #icons .icon.photoshop {
-  background-image: url(../images/icons/photoshop.png);
-  background-size: 105%;
-}
-#skills_content #icons .icon.photoshop::before {
-  content: "PhotoShop";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  color: #fff;
-  background-color: rgba(122, 134, 246, 0.7);
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.5s;
-}
-#skills_content #icons .icon.photoshop:hover::before {
-  opacity: 1;
-  visibility: visible;
-}
-#skills_content #icons .icon.premiere {
-  background-image: url(../images/icons/premiere.png);
-  background-size: 105%;
-}
-#skills_content #icons .icon.premiere::before {
-  content: "Premiere";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  color: #fff;
-  background-color: rgba(225, 122, 246, 0.7);
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.5s;
-}
-#skills_content #icons .icon.premiere:hover::before {
-  opacity: 1;
-  visibility: visible;
-}
 #skills_content #icons .icon.xe {
   background-image: url(../images/icons/xe.png);
   background-size: cover;
@@ -852,6 +809,28 @@ a {
   transition: 0.5s;
 }
 #skills_content #icons .icon.python:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+#skills_content #icons .icon.java {
+  background-image: url(../images/icons/java.png);
+  background-size: cover;
+}
+#skills_content #icons .icon.java::before {
+  content: "Java";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgba(234, 45, 46, 0.7);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+#skills_content #icons .icon.java:hover::before {
   opacity: 1;
   visibility: visible;
 }

@@ -19,8 +19,6 @@
     }
   }
 
-  
-
   .line {
     @include line_set($light_color);
   }
@@ -71,15 +69,15 @@
           background-color: $light-color;
         }
         .pic {
-          width: 200px;
-          height: 200px;
+          width: 250px;
+          height: 250px;
           background-color: $light-color;
-          border: 4px dashed $light-color;
+          border: 4px solid $light-color;
           border-radius: 50%;
           background-repeat: no-repeat;
-          background-position: center;
+          background-position: 50% 30%;
           background-size: cover;
-          // background-image: url("");
+          background-image: url("../images/profile/pic.jpg");
         }
       }
 
